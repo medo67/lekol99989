@@ -5,12 +5,8 @@ const fs = require('fs')
 const mmss = require('ms');
 var prefix = "$";///البرفيكس بتاع البوت ده البرفيكس الاساسي
 
-const discord = require('discord.js');
-const client = new discord.Client();
-
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+client.on('ready', () => }
+    console.log('I am ready!');
 });
 ////////////////////////////////////////////////////////////ده السورس الاساسي
 
