@@ -6,8 +6,7 @@ const mmss = require('ms');
 var prefix = "$";///البرفيكس بتاع البوت ده البرفيكس الاساسي
 
 const discord = require('discord.js');
-const client = new Discord.Client();
-
+const client = new discord.Client();
 
 
 client.on('ready', () => {
